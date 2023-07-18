@@ -1,0 +1,50 @@
+<HTML>
+    <head>
+	<meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <title>Cantidades Productos</title>
+	  <style>
+		body {
+		  font-family: Arial, sans-serif;
+		  margin: 0;
+		  padding: 0;
+		}
+		h1, h2 {
+		  margin: 1em 0;
+		}
+		ul {
+		  list-style-type: none;
+		  padding: 0;
+		}
+		li {
+		  margin: 0.5em 0;
+		}
+		a {
+		  text-decoration: none;
+		  color: #0077cc;
+		}
+		a:hover {
+		  text-decoration: underline;
+		}
+	  </style>
+	</head>
+
+	
+    <BODY>
+    
+	<br><br><H1 style="text-align:center;">Busqueda de Productos</H1>
+        <form action='CantidadesProductos' method='GET'>
+        
+        <br><p style="text-align:center;" >Indique la cantidad m&iacute;nima general de productos que deben haber en Stock:</p>
+		
+		<br><pre style="text-align:center;">
+		  
+		  Cantidad m&iacute;nima:&nbsp;&nbsp;&nbsp;&nbsp; <input type="number" min="0" step="1" NAME="minimo"> <br>
+		  
+		  <input TYPE="SUBMIT" VALUE="Enviar"> 
+		</pre>
+		
+		<center><BR><A HREF='index.html'>Volver al men&uacute;</A></center>
+		</form>
+    </BODY>
+</HTML>

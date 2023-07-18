@@ -1,0 +1,9 @@
+Codigo,Cantidad,Producto,Area
+0101,9,Shampoo,Higiene
+0102,15,Pasta de dientes,Higiene
+0201,15,Microondas,Electromesticos
+0202,34,Tostadora,Electrodomesticos
+0301,10,Amoniaco,Limpieza
+0302,4,Jabon,Limpieza
+0401,28,Altavoz,Tecnologia
+0402,25,Impresora,Tecnologia
