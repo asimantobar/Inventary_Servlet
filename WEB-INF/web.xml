@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+
+<servlet>
+  <servlet-name>Ingresos</servlet-name>
+  <servlet-class>Ingresos</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>Egresos</servlet-name>
+  <servlet-class>Egresos</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>EditarStock</servlet-name>
+  <servlet-class>EditarStock</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>EditarInventario</servlet-name>
+  <servlet-class>EditarInventario</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>BuscarProducto</servlet-name>
+  <servlet-class>BuscarProducto</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>CodigoProd</servlet-name>
+  <servlet-class>CodigoProd</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>CantidadesProductos</servlet-name>
+  <servlet-class>CantidadesProductos</servlet-class>
+</servlet>
+
+
+<servlet-mapping>
+  <servlet-name>Ingresos</servlet-name>
+  <url-pattern>/Ingresos</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>Egresos</servlet-name>
+  <url-pattern>/Egresos</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>EditarStock</servlet-name>
+  <url-pattern>/EditarStock</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>EditarInventario</servlet-name>
+  <url-pattern>/EditarInventario</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>BuscarProducto</servlet-name>
+  <url-pattern>/BuscarProducto</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>CodigoProd</servlet-name>
+  <url-pattern>/CodigoProd</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>CantidadesProductos</servlet-name>
+  <url-pattern>/CantidadesProductos</url-pattern>
+</servlet-mapping>
+
+</web-app>
